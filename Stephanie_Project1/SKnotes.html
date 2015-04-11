@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Stephanie's Notes</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="content">
+      <h1>Stephanie's Intro to Programming Notes</h1>
+      <div class="tablecontents">
+        <a href="#basics">Basics</a> | <a href="#structure">Structure</a> | <a href="style">Style</a>
+        <br>
+        <a href="#resources">Resources</a>
+      </div>
+      <div class="headerimg">
+        <img src="images/html_crop.jpg" alt="This is an image">
+      </div>
+      <div class="lesson">
+        <h2 id="basics">
+          Basics of Web and HTML
+        </h2>
+        <div class="notes">
+          <p>
+            The <em>World Wibe Web</em> is a collection of documents, most are made up of HTML. The browser reads, interprets, and displays these documents. Servers are computers that host files that make up the web. Computers make requests via the internet to servers, the internet and servers communicate through http. HTTP is the main protocol of the web.
+          </p>
+          <p>
+            <em>Coding</em> is when programmers write text in a language computers understand, so the computer can follow the instructions. Computers are stupid, even a small mistake like a typo can break the whole program.
+          </p>
+          <p>
+            <em>Basic HTML vocabulary:</em><br>
+            <em>Tag</em> - HTML tags are always contained in angle brackets. Most tags have opening and closing tags (designated with a forward-slash), but some tags called void tags do not require a closing tag. There are inline tags and block tags - block tags create an invisible box or container around the content that has a height and width, while inline tags do something within the line.<br>
+            <em>Element</em> - An HTML element refers to everything within a set of opening and closing tags.<br>
+            <em>Attribute</em> - This is a property of an HTML element, such as the source in an image tag.
+          </p>
+        </div>
+      </div>
+      <div class="lesson">
+        <h2 id="structure">
+          Creating a Structured Document with HTML
+        </h2>
+        <div class="notes">
+          <p>
+            <em>HTML (HyperText Markup Language)</em> is the structure of a webpage. HTML is the standard markup language used to create webpages.
+          </p>
+          <p>
+            <em>DOM (Document Object Model)</em> refers to the tree-like structure of a webpage. DOM is a cross-platform and language-independent convention for representing and interacting with objects in markup languages. The nodes of every document are organized in a tree structure, called the DOM tree.
+          </p>
+          <p>
+            Websites are all made up of boxes, with boxes inside those boxes, and more boxes inside those. Box-ception. When reading the HTML you can see the "boxes" by the indentation in the code - the further indented the code is the deeper the visual box is nested.
+          </p>
+        </div>
+      </div>
+      <div class="lesson">
+        <h2 id="style">
+          Adding CSS Style to HTML Structure
+        </h2>
+        <div class="notes">
+          <p>
+            <em>CSS (Cascading Style Sheets)</em> creates the style of a webpage. CSS is a style sheet language used for describing the look and formatting of a document written in a markup language.
+          </p>
+          <p>
+            The <em>Cascading</em> part of CSS means that rules are applied to the elements they directly match as well as that element's child elements, like a waterfall will wet every stone from the top to the bottom. This idea is known as <em>inheritance</em>. If a child element has multiple, overlapping rules defined for it, the more specific rules take precedence.
+          </p>
+          <p>
+            <b>Avoiding repetition</b> is very important in programming. It helps avoid errors when you don't have to rewrite the same thing over and over again - there is always the risk of typos! Avoiding repetition also helps with creating consistency. With CSS, you can apply the same style to everything of the same element, like I have done with all of the div tags with the class "lesson" here. Because of that, it is now very easy for me to make changes to all of the lessons' style at once.
+          </p>
+        </div>
+      </div>
+      <div class="resources">
+        <div class="ref" id="resources">List of resources and important links:</div>
+        <p>
+          <a href="http://validator.w3.org/#validate_by_input">HTML Validation</a> | <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">CSS Validation</a><br>
+          <a href="http://www.w3schools.com/tags/default.asp">HTML Tag List</a> | <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Documentation</a> | <a href="http://www.w3schools.com/tags/ref_colorpicker.asp">HTML Color Picker</a><br>
+          <a href="http://codepen.io/pen/">Codepen</a> | <a href="http://scratchpad.io/">Scratchpad</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
